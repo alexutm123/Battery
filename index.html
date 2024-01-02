@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Live battery percentage - Bedimcode</title>
+    </head>
+    <body>
+       
+        <section class="battery">
+            <div class="battery__card">
+                <div class="battery__data">
+                    <p class="battery__text">Battery</p>
+                    <h1 class="battery__percentage">
+                        20%
+                    </h1>
+
+                    <p class="battery__status">
+                        Low battery <i class="ri-plug-line"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 7V17H18V7H4ZM3 5H19C19.5523 5 20 5.44772 20 6V18C20 18.5523 19.5523 19 19 19H3C2.44772 19 2 18.5523 2 18V6C2 5.44772 2.44772 5 3 5ZM5 8H9V16H5V8ZM21 9H23V15H21V9Z" fill="currentColor"></path></svg>
+                    </p>
+                </div>
+                
+
+                <div class="battery__pill">
+        
+
+                    <div class="battery__level">
+                        <canvas id='c'></canvas>
+                        <div class="battery__liquid"></div>            
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
